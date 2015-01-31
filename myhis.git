@@ -1,0 +1,55 @@
+145  mkdir git_code
+146  cd git_code/
+151  mv git_code/ ..
+157  cd git_code/
+158  git clone git://github.com/altercation/solarized.git
+159  git clone git://github.com/altercation/solarized.git
+160  git clone git://github.com/altercation/solarized.git
+170  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+191  cd git_code/
+220  cd mygit/
+227  cd git_code/
+238  mv git_code/ code
+510  mkdir learngit
+512  cd learngit/
+514  git init
+521  git add readme.txt 
+522  git commit -m readme.txt 
+526  git status
+527  git diff
+528  git diff readme.txt 
+529  git add readme.txt 
+530  git status
+531  git commit -m "add distributed"
+532  git status
+534  git add readme.txt 
+535  git commit -m "append GPL"
+536  git log
+537  git log --pretty=oneline
+538  git reset --hard HEAD^
+539  git log
+540  git log --pretty=oneline
+542  git reset --hard 869952fcd2ec17c8069c6ce40022289058627f2c
+543  git log
+545  git reflog
+548  ll -h .git/
+551  git status
+552  git add readme.txt LICENSE 
+553  git status
+554  git commit -m "understand how stage works"
+555  git status
+557  git add readme.txt 
+558  git status
+560  git commit -m "git tracks changes"
+561  git status
+563  git diff HEAD -- readme.txt 
+564  git reflog
+565  git log
+567  git status
+568  git checkout -- readme.txt 
+572  git add readme.txt 
+573  git status
+574  git reset HEAD readme.txt 
+575  git status
+576  git checkout -- readme.txt 
+577  git status
