@@ -1,4 +1,0 @@
-ed version control software.
-ware distributed under the GPL.
-index called stage.
-.
